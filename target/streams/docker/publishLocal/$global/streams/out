@@ -1,0 +1,60 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t myfirstplayinscala:1.0-SNAPSHOT .[0m
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory C:\Users\stota\Desktop\myfirstplayinscala\target\docker\stage[0m
+[0m[[0m[31merror[0m] [0m[0mjava.io.IOException: Cannot run program "docker" (in directory "C:\Users\stota\Desktop\myfirstplayinscala\target\docker\stage"): CreateProcess error=2, The system cannot find the file specified[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.ProcessBuilder.start(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.sys.process.ProcessBuilderImpl$Simple.run(ProcessBuilderImpl.scala:71)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.sys.process.ProcessBuilderImpl$AbstractBuilder.run(ProcessBuilderImpl.scala:102)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.sys.process.ProcessBuilderImpl$AbstractBuilder.$anonfun$runBuffered$1(ProcessBuilderImpl.scala:150)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcI$sp.apply(JFunction0$mcI$sp.java:12)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$$anon$1.buffer(DockerPlugin.scala:325)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.sys.process.ProcessBuilderImpl$AbstractBuilder.runBuffered(ProcessBuilderImpl.scala:150)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.sys.process.ProcessBuilderImpl$AbstractBuilder.$bang(ProcessBuilderImpl.scala:116)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.publishLocalDocker(DockerPlugin.scala:332)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$26(DockerPlugin.scala:119)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$26$adapted(DockerPlugin.scala:117)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:44)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:39)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(System.scala:66)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:262)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:271)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:262)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:174)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.ProcessImpl.create(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.ProcessImpl.<init>(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.ProcessImpl.start(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.ProcessBuilder.start(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.sys.process.ProcessBuilderImpl$Simple.run(ProcessBuilderImpl.scala:71)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.sys.process.ProcessBuilderImpl$AbstractBuilder.run(ProcessBuilderImpl.scala:102)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.sys.process.ProcessBuilderImpl$AbstractBuilder.$anonfun$runBuffered$1(ProcessBuilderImpl.scala:150)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcI$sp.apply(JFunction0$mcI$sp.java:12)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$$anon$1.buffer(DockerPlugin.scala:325)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.sys.process.ProcessBuilderImpl$AbstractBuilder.runBuffered(ProcessBuilderImpl.scala:150)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.sys.process.ProcessBuilderImpl$AbstractBuilder.$bang(ProcessBuilderImpl.scala:116)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.publishLocalDocker(DockerPlugin.scala:332)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$26(DockerPlugin.scala:119)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.typesafe.sbt.packager.docker.DockerPlugin$.$anonfun$projectSettings$26$adapted(DockerPlugin.scala:117)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:44)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:39)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(System.scala:66)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:262)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:271)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:262)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:174)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m(Docker / [31mpublishLocal[0m) java.io.IOException: Cannot run program "docker" (in directory "C:\Users\stota\Desktop\myfirstplayinscala\target\docker\stage"): CreateProcess error=2, The system cannot find the file specified[0m

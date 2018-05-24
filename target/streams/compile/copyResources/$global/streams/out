@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\stota\Desktop\myfirstplayinscala\conf\application.conf,C:\Users\stota\Desktop\myfirstplayinscala\target\scala-2.12\classes\application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\stota\Desktop\myfirstplayinscala\conf\logback.xml,C:\Users\stota\Desktop\myfirstplayinscala\target\scala-2.12\classes\logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\stota\Desktop\myfirstplayinscala\conf\messages,C:\Users\stota\Desktop\myfirstplayinscala\target\scala-2.12\classes\messages)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\stota\Desktop\myfirstplayinscala\conf\routes,C:\Users\stota\Desktop\myfirstplayinscala\target\scala-2.12\classes\routes)[0m

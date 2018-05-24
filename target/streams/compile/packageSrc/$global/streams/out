@@ -1,0 +1,13 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging C:\Users\stota\Desktop\myfirstplayinscala\target\scala-2.12\myfirstplayinscala_2.12-1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	messages[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\stota\Desktop\myfirstplayinscala\conf\messages[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\stota\Desktop\myfirstplayinscala\conf\application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\stota\Desktop\myfirstplayinscala\conf\logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	routes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\stota\Desktop\myfirstplayinscala\conf\routes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers\HomeController.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\stota\Desktop\myfirstplayinscala\app\controllers\HomeController.scala[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
